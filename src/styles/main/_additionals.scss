@@ -1,0 +1,17 @@
+/* VARIOUS BLOCKS: START */
+.section {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+
+  &__content {
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+    @include adaptive(padding-left, 16, 34);
+    @include adaptive(padding-right, 16, 34);
+  }
+}
+
+@media (max-width: 360px) {
+}
