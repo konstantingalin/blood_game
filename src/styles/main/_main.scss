@@ -1,8 +1,65 @@
 .wrapper {
-  max-width: 670px;
   margin: 0 auto;
 }
 
 ._1 {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: url(../../public/game_screen.png) center no-repeat;
+    background-size: 100% 100%;
 
+  .game_content {
+      max-width: 680px;
+      position: relative;
+      max-width: 680px;
+      margin: 0 auto;
+  }
+
+  #score {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-size: 24px;
+      color: white;
+  }
+
+  #timer {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-size: 24px;
+      color: white;
+  }
+
+  #game-board {
+      padding: 0;
+      margin: 0;
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    position: relative;
+  }
+
+  .game-object0 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: red;
+    cursor: pointer;
+  }
+  .game-object1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: green;
+    cursor: pointer;
+  }
+  .game-object2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: blue;
+    cursor: pointer;
+  }
 }
