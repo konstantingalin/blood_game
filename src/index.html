@@ -19,9 +19,39 @@
 		<section class="section _1" id="_1">
 			<div class="section__content">
 				<div class="game_content">
-					<p id="score">Очки: 0</p>
-					<p id="timer">Времени осталось: 30</p>
+					<div class="play_box">
+						<h1>Набери очки за 30 секунд</h1>
+						<a href="#" class="button_start">
+							Начать игру
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section _2" id="_2">
+			<div class="section__content">
+				<div class="game_content">
+					<p class="score">
+						<img src="../public/gold-coin.svg" alt="иконка">
+						<span id="score">0</span>
+					</p>
+					<p class="timer">
+						<img src="../public/clock.png" alt="иконка">
+						<span><span id="timer">30</span> сек</span>
+					</p>
 					<div id="game-board"></div>
+				</div>
+			</div>
+		</section>
+		<section class="section _3" id="_3">
+			<div class="section__content">
+				<div class="game_content">
+					<div class="play_box">
+						<h1>Поздравляю, вы набрали очков: <span id="score_result"></span></h1> 
+						<a href="#" class="button_reset">
+							Начать игру заново
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
